@@ -4,6 +4,9 @@ import java.util.*;
  * ABSTRACT BASE CLASS REPRESENTING A STUDENT
  */
 public abstract class Student {
+
+    protected Student() {
+    }
     /**
      * THE STUDENT'S NAME
      */
