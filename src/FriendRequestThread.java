@@ -6,7 +6,6 @@ import java.util.concurrent.Semaphore;
 public class FriendRequestThread implements Runnable {
     private UniversityStudent sender;
     private UniversityStudent receiver;
-    // Static semaphore to ensure thread-safe friend request operations.
     private static final Semaphore semaphore = new Semaphore(1);
 
     /**
@@ -26,7 +25,6 @@ public class FriendRequestThread implements Runnable {
     public void run() {
         try {
             semaphore.acquire();
-            // Simulate sending a friend request. In a full implementation, you would update shared data.
             System.out.println("FriendRequest (Thread-Safe): " + sender.name + " sent a friend request to " + receiver.name);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();

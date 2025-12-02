@@ -12,11 +12,8 @@ public class GaleShapley {
      * @param students THE LIST OF STUDENTS TO MATCH
      */
     public static void assignRoommates(List<UniversityStudent> students) {
-        // Map to hold final pairings: each student is paired with a roommate.
         Map<UniversityStudent, UniversityStudent> roommatePairs = new HashMap<>();
-        // Tracks which proposal each student is up to.
         Map<UniversityStudent, Integer> nextProposalIndex = new HashMap<>();
-        // Map to quickly lookup a student by name.
         Map<String, UniversityStudent> nameToStudent = new HashMap<>();
         
         for (UniversityStudent s : students) {
@@ -24,7 +21,6 @@ public class GaleShapley {
             nextProposalIndex.put(s, 0);
         }
         
-        // Queue for students who are free and still have preferences to propose.
         Queue<UniversityStudent> freeStudents = new LinkedList<>();
         
         for (UniversityStudent s : students) {
@@ -33,19 +29,17 @@ public class GaleShapley {
             }
         }
         
-        while (!freeStudents.isEmpty()) { //there are still students that exist
+        while (!freeStudents.isEmpty()) { 
             UniversityStudent s = freeStudents.poll();
             
-            // Skip if s is already paired
             if (s.getRoommate() != null) {
                 continue;
             }
             
-            //regular gale-shapley: check to see if there is one roommate that is preferred over the other, no such case will be tested
             int index = nextProposalIndex.get(s);
             
             if (index >= s.roommatePreferences.size()) {
-                continue; // s has no more preferences.
+                continue; 
             }
             
             String preferredName = s.roommatePreferences.get(index);
@@ -53,27 +47,23 @@ public class GaleShapley {
             UniversityStudent t = nameToStudent.get(preferredName);
             
             if (t == null) {
-                // Preferred student not found; try next option.
                 if (nextProposalIndex.get(s) < s.roommatePreferences.size()) {
                     freeStudents.offer(s);
                 }
                 continue;
             }
             
-            // If t is free, pair s and t.
             if (t.getRoommate() == null) {
                 roommatePairs.put(s, t);
                 roommatePairs.put(t, s);
                 s.setRoommate(t);
                 t.setRoommate(s);
             } else {
-                // t is already paired; check if t prefers s over current partner.
                 UniversityStudent currentPartner = t.getRoommate();
                 int currentIndex = t.roommatePreferences.indexOf(currentPartner.name);
                 int newIndex = t.roommatePreferences.indexOf(s.name);
                 
                 if (newIndex < currentIndex) {
-                    // t prefers s over their current partner.
                     roommatePairs.put(t, s);
                     roommatePairs.put(s, t);
                     roommatePairs.remove(currentPartner);
@@ -82,7 +72,6 @@ public class GaleShapley {
                     s.setRoommate(t);
                     t.setRoommate(s);
                 } else {
-                    // t rejects s.
                     if (nextProposalIndex.get(s) < s.roommatePreferences.size()) {
                         freeStudents.offer(s);
                     }
@@ -90,7 +79,6 @@ public class GaleShapley {
             }
         }
         
-        // Print the roommate pairs (avoid duplicate printing).
         System.out.println("\nRoommate Pairings (Gale-Shapley):");
         Set<UniversityStudent> printed = new HashSet<>();
         
