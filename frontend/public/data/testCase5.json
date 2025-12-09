@@ -1,0 +1,262 @@
+{
+  "name": "International Students Network",
+  "students": [
+    {
+      "name": "Priya",
+      "age": 22,
+      "gender": "Female",
+      "year": 3,
+      "major": "Computer Science",
+      "gpa": 3.9,
+      "roommatePreferences": [
+        "Yuki",
+        "Carlos",
+        "Amara"
+      ],
+      "previousInternships": [
+        "Google India",
+        "Microsoft",
+        "Amazon"
+      ],
+      "chatHistory": [
+        {
+          "with": "Yuki",
+          "message": "Let's celebrate Diwali together next week! I'm making samosas.",
+          "time": "30 minutes ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Carlos",
+          "message": "The international student mixer was so fun! Great meeting everyone.",
+          "time": "2 days ago",
+          "direction": "received"
+        },
+        {
+          "with": "Amara",
+          "message": "Want to study for the algorithms final together? My place at 3pm?",
+          "time": "5 hours ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Dmitri",
+          "status": "Accepted",
+          "time": "1 week ago"
+        }
+      ]
+    },
+    {
+      "name": "Yuki",
+      "age": 21,
+      "gender": "Female",
+      "year": 2,
+      "major": "Design",
+      "gpa": 3.85,
+      "roommatePreferences": [
+        "Priya",
+        "Amara",
+        "Sofia"
+      ],
+      "previousInternships": [
+        "Sony",
+        "Nintendo",
+        "Adobe"
+      ],
+      "chatHistory": [
+        {
+          "with": "Priya",
+          "message": "I'd love to! I'll bring mochi for dessert.",
+          "time": "25 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Sofia",
+          "message": "Your portfolio is amazing! Can you review my UI designs?",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Priya",
+          "status": "Accepted",
+          "time": "3 months ago"
+        }
+      ]
+    },
+    {
+      "name": "Carlos",
+      "age": 23,
+      "gender": "Male",
+      "year": 4,
+      "major": "International Relations",
+      "gpa": 3.7,
+      "roommatePreferences": [
+        "Ahmed",
+        "Dmitri"
+      ],
+      "previousInternships": [
+        "UN",
+        "World Bank"
+      ],
+      "chatHistory": [
+        {
+          "with": "Priya",
+          "message": "Yes! We should do it monthly. So many interesting people from around the world!",
+          "time": "2 days ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Ahmed",
+          "message": "The Model UN conference next month - are you going?",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Amara",
+      "age": 20,
+      "gender": "Female",
+      "year": 2,
+      "major": "Computer Science",
+      "gpa": 3.95,
+      "roommatePreferences": [
+        "Priya",
+        "Yuki"
+      ],
+      "previousInternships": [
+        "Google",
+        "Facebook"
+      ],
+      "chatHistory": [
+        {
+          "with": "Priya",
+          "message": "Perfect! I'll bring my notes and practice problems.",
+          "time": "4 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Dmitri",
+          "message": "Thanks for explaining dynamic programming! Finally clicked for me.",
+          "time": "6 hours ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Yuki",
+          "status": "Accepted",
+          "time": "2 weeks ago"
+        }
+      ]
+    },
+    {
+      "name": "Ahmed",
+      "age": 24,
+      "gender": "Male",
+      "year": 4,
+      "major": "Political Science",
+      "gpa": 3.8,
+      "roommatePreferences": [
+        "Carlos",
+        "Dmitri"
+      ],
+      "previousInternships": [
+        "State Department",
+        "UN"
+      ],
+      "chatHistory": [
+        {
+          "with": "Carlos",
+          "message": "Definitely! I'm on the organizing committee this year.",
+          "time": "1 day ago",
+          "direction": "received"
+        },
+        {
+          "with": "Sofia",
+          "message": "Your presentation on global economics was fascinating!",
+          "time": "3 days ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Sofia",
+      "age": 22,
+      "gender": "Female",
+      "year": 3,
+      "major": "Economics",
+      "gpa": 3.75,
+      "roommatePreferences": [
+        "Yuki",
+        "Amara"
+      ],
+      "previousInternships": [
+        "IMF",
+        "World Bank"
+      ],
+      "chatHistory": [
+        {
+          "with": "Yuki",
+          "message": "Of course! Your designs are always so clean and innovative.",
+          "time": "1 day ago",
+          "direction": "received"
+        },
+        {
+          "with": "Ahmed",
+          "message": "Thank you! We should collaborate on research sometime.",
+          "time": "3 days ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Carlos",
+          "status": "Pending",
+          "time": "2 days ago"
+        }
+      ]
+    },
+    {
+      "name": "Dmitri",
+      "age": 23,
+      "gender": "Male",
+      "year": 4,
+      "major": "Mathematics",
+      "gpa": 3.92,
+      "roommatePreferences": [
+        "Ahmed",
+        "Carlos"
+      ],
+      "previousInternships": [
+        "Jane Street",
+        "Citadel"
+      ],
+      "chatHistory": [
+        {
+          "with": "Amara",
+          "message": "Happy to help! DP is tricky but so elegant once you get it.",
+          "time": "6 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Priya",
+          "message": "Want to form a study group for the quant finance class?",
+          "time": "1 week ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Amara",
+          "status": "Accepted",
+          "time": "3 weeks ago"
+        }
+      ]
+    }
+  ]
+}

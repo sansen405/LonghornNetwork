@@ -1,0 +1,89 @@
+{
+  "name": "Test Case 3",
+  "students": [
+    {
+      "name": "Jack",
+      "age": 19,
+      "gender": "Male",
+      "year": 1,
+      "major": "History",
+      "gpa": 3.0,
+      "roommatePreferences": [
+        "Kim"
+      ],
+      "previousInternships": [
+        "MuseumIntern"
+      ],
+      "chatHistory": [
+        {
+          "with": "Kim",
+          "message": "Hey, are you going to the history club meeting tonight?",
+          "time": "30 minutes ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Kim",
+          "status": "Accepted",
+          "time": "2 weeks ago"
+        }
+      ]
+    },
+    {
+      "name": "Kim",
+      "age": 19,
+      "gender": "Female",
+      "year": 1,
+      "major": "History",
+      "gpa": 3.2,
+      "roommatePreferences": [
+        "Jack"
+      ],
+      "previousInternships": [
+        "MuseumIntern"
+      ],
+      "chatHistory": [
+        {
+          "with": "Jack",
+          "message": "Yes! I'll be there. Want to work on the group project after?",
+          "time": "25 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Leo",
+          "message": "Hi Leo! Welcome to our history class. Let me know if you need any help!",
+          "time": "1 week ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Leo",
+      "age": 20,
+      "gender": "Male",
+      "year": 1,
+      "major": "History",
+      "gpa": 3.5,
+      "roommatePreferences": [],
+      "previousInternships": [
+        "None"
+      ],
+      "chatHistory": [
+        {
+          "with": "Kim",
+          "message": "Thanks Kim! I appreciate it. Still getting used to everything.",
+          "time": "1 week ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Kim",
+          "status": "Pending",
+          "time": "1 week ago"
+        }
+      ]
+    }
+  ]

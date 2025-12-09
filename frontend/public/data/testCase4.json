@@ -1,0 +1,325 @@
+{
+  "name": "Tech Startup Club",
+  "students": [
+    {
+      "name": "Maya",
+      "age": 21,
+      "gender": "Female",
+      "year": 3,
+      "major": "Computer Science",
+      "gpa": 3.9,
+      "roommatePreferences": [
+        "Noah",
+        "Olivia",
+        "Ethan"
+      ],
+      "previousInternships": [
+        "Meta",
+        "Google",
+        "Stripe"
+      ],
+      "chatHistory": [
+        {
+          "with": "Noah",
+          "message": "Just finished the hackathon! Our AI project got 2nd place!",
+          "time": "1 hour ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Noah",
+          "message": "The judges were really impressed with our neural network optimization algorithm.",
+          "time": "56 min ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Noah",
+          "message": "We should definitely apply to Y Combinator with this.",
+          "time": "51 min ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Olivia",
+          "message": "Want to collaborate on that blockchain research paper?",
+          "time": "3 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Olivia",
+          "message": "I think combining your AI expertise with my hardware knowledge could be groundbreaking.",
+          "time": "2 hours 56 min ago",
+          "direction": "received"
+        },
+        {
+          "with": "Olivia",
+          "message": "Professor Chen mentioned this could be a great topic for the IEEE conference.",
+          "time": "2 hours 51 min ago",
+          "direction": "received"
+        },
+        {
+          "with": "Sophia",
+          "message": "Your startup pitch was incredible! When's the next meeting?",
+          "time": "1 day ago",
+          "direction": "received"
+        },
+        {
+          "with": "Sophia",
+          "message": "I'd love to help with the robotics integration for your product.",
+          "time": "23 hours ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Liam",
+          "status": "Accepted",
+          "time": "2 days ago"
+        },
+        {
+          "from": "Emma",
+          "status": "Pending",
+          "time": "5 hours ago"
+        }
+      ]
+    },
+    {
+      "name": "Noah",
+      "age": 22,
+      "gender": "Male",
+      "year": 3,
+      "major": "Computer Science",
+      "gpa": 3.8,
+      "roommatePreferences": [
+        "Maya",
+        "Ethan",
+        "Liam"
+      ],
+      "previousInternships": [
+        "Meta",
+        "Amazon",
+        "Netflix"
+      ],
+      "chatHistory": [
+        {
+          "with": "Maya",
+          "message": "Amazing work! We make a great team. Coffee tomorrow to discuss next steps?",
+          "time": "50 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Maya",
+          "message": "I'm thinking we should start incorporating real-time data processing.",
+          "time": "50 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Maya",
+          "message": "Also, I got a callback from the VCs we pitched to last week.",
+          "time": "50 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Ethan",
+          "message": "The demo went perfectly! They loved the ML model.",
+          "time": "2 hours ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Ethan",
+          "message": "Your data pipeline architecture was flawless. Zero latency issues.",
+          "time": "1 hour 56 min ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Ethan",
+          "message": "Let's grab lunch this week and plan the next phase of development.",
+          "time": "1 hour 51 min ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Maya",
+          "status": "Accepted",
+          "time": "3 weeks ago"
+        }
+      ]
+    },
+    {
+      "name": "Olivia",
+      "age": 20,
+      "gender": "Female",
+      "year": 2,
+      "major": "Electrical Engineering",
+      "gpa": 3.95,
+      "roommatePreferences": [
+        "Sophia",
+        "Maya",
+        "Emma"
+      ],
+      "previousInternships": [
+        "Tesla",
+        "SpaceX"
+      ],
+      "chatHistory": [
+        {
+          "with": "Maya",
+          "message": "Yes! Let's combine your AI expertise with my hardware knowledge.",
+          "time": "3 hours ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Sophia",
+          "message": "The robotics lab is open late tonight if you want to work on the project!",
+          "time": "6 hours ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Ethan",
+      "age": 21,
+      "gender": "Male",
+      "year": 3,
+      "major": "Data Science",
+      "gpa": 3.7,
+      "roommatePreferences": [
+        "Noah",
+        "Liam",
+        "Maya"
+      ],
+      "previousInternships": [
+        "Meta",
+        "Palantir",
+        "DataBricks"
+      ],
+      "chatHistory": [
+        {
+          "with": "Noah",
+          "message": "I know right! The judges were really impressed with our data pipeline.",
+          "time": "2 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Liam",
+          "message": "Want to grab lunch? I need advice on my startup idea.",
+          "time": "4 hours ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Noah",
+          "status": "Accepted",
+          "time": "1 month ago"
+        }
+      ]
+    },
+    {
+      "name": "Sophia",
+      "age": 22,
+      "gender": "Female",
+      "year": 4,
+      "major": "Mechanical Engineering",
+      "gpa": 3.85,
+      "roommatePreferences": [
+        "Olivia",
+        "Emma"
+      ],
+      "previousInternships": [
+        "Tesla",
+        "Boston Dynamics",
+        "SpaceX"
+      ],
+      "chatHistory": [
+        {
+          "with": "Olivia",
+          "message": "Perfect! I'll bring the Arduino boards and sensors.",
+          "time": "5 hours ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Maya",
+          "message": "Thanks! Been working on this pitch for months. Let's sync up next week!",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Olivia",
+          "status": "Accepted",
+          "time": "2 months ago"
+        }
+      ]
+    },
+    {
+      "name": "Liam",
+      "age": 23,
+      "gender": "Male",
+      "year": 4,
+      "major": "Business",
+      "gpa": 3.6,
+      "roommatePreferences": [
+        "Noah",
+        "Ethan"
+      ],
+      "previousInternships": [
+        "Goldman Sachs",
+        "McKinsey"
+      ],
+      "chatHistory": [
+        {
+          "with": "Ethan",
+          "message": "Absolutely! I'm thinking food delivery but with AI optimization.",
+          "time": "3 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Emma",
+          "message": "Your marketing campaign for the club event was genius!",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Emma",
+      "age": 21,
+      "gender": "Female",
+      "year": 3,
+      "major": "Marketing",
+      "gpa": 3.75,
+      "roommatePreferences": [
+        "Sophia",
+        "Olivia"
+      ],
+      "previousInternships": [
+        "Adobe",
+        "HubSpot"
+      ],
+      "chatHistory": [
+        {
+          "with": "Liam",
+          "message": "Thanks! I love combining creativity with data. Want to collab on something?",
+          "time": "1 day ago",
+          "direction": "received"
+        },
+        {
+          "with": "Maya",
+          "message": "Saw your hackathon project! Would love to help with the branding and go-to-market strategy.",
+          "time": "2 days ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Liam",
+          "status": "Accepted",
+          "time": "1 week ago"
+        }
+      ]
+    }
+  ]
+}

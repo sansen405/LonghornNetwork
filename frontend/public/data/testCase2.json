@@ -1,0 +1,112 @@
+{
+  "name": "Test Case 2",
+  "students": [
+    {
+      "name": "Greg",
+      "age": 24,
+      "gender": "Male",
+      "year": 4,
+      "major": "Economics",
+      "gpa": 3.4,
+      "roommatePreferences": [
+        "Helen",
+        "Ivy"
+      ],
+      "previousInternships": [
+        "InternshipA"
+      ],
+      "chatHistory": [
+        {
+          "with": "Helen",
+          "message": "Want to grab coffee and discuss our thesis projects?",
+          "time": "1 hour ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Ivy",
+          "message": "How was your interview at DummyCompany?",
+          "time": "2 days ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Helen",
+          "status": "Accepted",
+          "time": "1 month ago"
+        }
+      ]
+    },
+    {
+      "name": "Helen",
+      "age": 24,
+      "gender": "Female",
+      "year": 4,
+      "major": "Economics",
+      "gpa": 3.5,
+      "roommatePreferences": [
+        "Greg",
+        "Ivy"
+      ],
+      "previousInternships": [
+        "InternshipB"
+      ],
+      "chatHistory": [
+        {
+          "with": "Greg",
+          "message": "Sounds good! How about 2pm at the student center?",
+          "time": "50 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Ivy",
+          "message": "Good luck on your final presentation tomorrow!",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Ivy",
+      "age": 25,
+      "gender": "Female",
+      "year": 4,
+      "major": "Economics",
+      "gpa": 3.8,
+      "roommatePreferences": [
+        "Helen",
+        "Greg"
+      ],
+      "previousInternships": [
+        "DummyCompany"
+      ],
+      "chatHistory": [
+        {
+          "with": "Greg",
+          "message": "It went really well! They offered me a full-time position!",
+          "time": "2 days ago",
+          "direction": "received"
+        },
+        {
+          "with": "Helen",
+          "message": "Thank you! You too!",
+          "time": "1 day ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Greg",
+          "status": "Accepted",
+          "time": "3 weeks ago"
+        },
+        {
+          "from": "Helen",
+          "status": "Accepted",
+          "time": "3 weeks ago"
+        }
+      ]
+    }
+  ]
+}

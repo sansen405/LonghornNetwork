@@ -1,0 +1,370 @@
+.details-empty {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.empty-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.empty-hint {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.student-selector {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.student-selector h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.selector-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.selector-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: #f9f9f9;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: left;
+}
+
+.selector-item:hover {
+  background: white;
+  border-color: #667eea;
+  transform: translateX(4px);
+}
+
+.selector-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.selector-info {
+  flex: 1;
+}
+
+.selector-name {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.2rem;
+  font-size: 0.95rem;
+}
+
+.selector-major {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.student-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.details-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.header-avatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.25rem;
+  font-weight: bold;
+  flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
+}
+
+.header-info h2 {
+  color: #333;
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+}
+
+.header-major {
+  color: #667eea;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.details-section h3 {
+  color: #333;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.info-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.info-key {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.info-val {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.gpa-highlight {
+  color: #667eea;
+  font-weight: 700;
+}
+
+.internships {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.internship-badge {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  color: #e65100;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 2px solid #ff9800;
+}
+
+.none-badge {
+  color: #999;
+  font-style: italic;
+}
+
+.preferences {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.preference-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem;
+  background: #f9f9f9;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  width: 100%;
+}
+
+.preference-btn:hover {
+  background: white;
+  border-color: #667eea;
+  transform: translateX(4px);
+}
+
+.pref-rank {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #667eea;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.pref-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.chat-item {
+  background: #f9f9f9;
+  padding: 0.85rem;
+  border-radius: 10px;
+  border-left: 3px solid #667eea;
+}
+
+.chat-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.chat-person {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.chat-time {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.chat-msg {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.requests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.request-item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.request-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.request-content {
+  flex: 1;
+}
+
+.request-name {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.request-status {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.request-status.pending {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.request-status.accepted {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+.none-text {
+  color: #999;
+  font-style: italic;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.clear-btn {
+  padding: 0.85rem;
+  background: #f5f5f5;
+  color: #666;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  font-size: 1rem;
+}
+
+.clear-btn:hover {
+  background: #e8e8e8;
+  border-color: #999;
+}
+

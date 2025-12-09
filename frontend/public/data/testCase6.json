@@ -1,0 +1,293 @@
+{
+  "name": "Research Lab Network",
+  "students": [
+    {
+      "name": "Dr. Sarah Chen",
+      "age": 26,
+      "gender": "Female",
+      "year": 5,
+      "major": "Artificial Intelligence",
+      "gpa": 4.0,
+      "roommatePreferences": [
+        "Dr. James Park",
+        "Dr. Rachel Kim"
+      ],
+      "previousInternships": [
+        "DeepMind",
+        "OpenAI",
+        "Google Research"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. James Park",
+          "message": "The neural network convergence is looking promising! Check Slack for the latest results.",
+          "time": "15 minutes ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Marcus",
+          "message": "Great work on the literature review! Your analysis of the transformer architecture was spot-on.",
+          "time": "2 hours ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Dr. Rachel Kim",
+          "message": "Coffee at 4pm to discuss the grant proposal? NSF deadline is next week!",
+          "time": "3 hours ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Marcus",
+          "status": "Accepted",
+          "time": "4 months ago"
+        }
+      ]
+    },
+    {
+      "name": "Dr. James Park",
+      "age": 27,
+      "gender": "Male",
+      "year": 5,
+      "major": "Robotics",
+      "gpa": 3.98,
+      "roommatePreferences": [
+        "Dr. Sarah Chen",
+        "Dr. Michael Torres"
+      ],
+      "previousInternships": [
+        "Boston Dynamics",
+        "Tesla AI",
+        "NASA JPL"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. Sarah Chen",
+          "message": "Amazing! The loss is down to 0.03. Ready to submit to ICML?",
+          "time": "10 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Aisha",
+          "message": "Your computer vision module integrated perfectly with the robot arm!",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Dr. Rachel Kim",
+      "age": 28,
+      "gender": "Female",
+      "year": 6,
+      "major": "Computational Biology",
+      "gpa": 3.95,
+      "roommatePreferences": [
+        "Dr. Sarah Chen",
+        "Dr. Maria Silva"
+      ],
+      "previousInternships": [
+        "NIH",
+        "Moderna",
+        "Genentech"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. Sarah Chen",
+          "message": "Perfect! I'll bring the draft. We need $500K for the AI drug discovery project.",
+          "time": "3 hours ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Dr. Maria Silva",
+          "message": "The protein folding predictions are 94% accurate now! AlphaFold watch out.",
+          "time": "5 hours ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Dr. Sarah Chen",
+          "status": "Accepted",
+          "time": "2 years ago"
+        }
+      ]
+    },
+    {
+      "name": "Marcus",
+      "age": 24,
+      "gender": "Male",
+      "year": 5,
+      "major": "Machine Learning",
+      "gpa": 3.88,
+      "roommatePreferences": [
+        "Aisha",
+        "Leo"
+      ],
+      "previousInternships": [
+        "Google Research",
+        "Meta AI"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. Sarah Chen",
+          "message": "Thank you! I'm excited about potentially publishing this at NeurIPS.",
+          "time": "2 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Aisha",
+          "message": "Lab meeting in 10! Bringing donuts.",
+          "time": "6 hours ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Aisha",
+      "age": 25,
+      "gender": "Female",
+      "year": 5,
+      "major": "Computer Vision",
+      "gpa": 3.92,
+      "roommatePreferences": [
+        "Marcus",
+        "Leo"
+      ],
+      "previousInternships": [
+        "NVIDIA",
+        "Adobe Research",
+        "Apple"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. James Park",
+          "message": "Thanks! It took forever to tune the hyperparameters but worth it!",
+          "time": "1 day ago",
+          "direction": "received"
+        },
+        {
+          "with": "Marcus",
+          "message": "You're the best! Save me a chocolate one.",
+          "time": "6 hours ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Marcus",
+          "status": "Accepted",
+          "time": "1 year ago"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Maria Silva",
+      "age": 29,
+      "gender": "Female",
+      "year": 6,
+      "major": "Bioinformatics",
+      "gpa": 3.97,
+      "roommatePreferences": [
+        "Dr. Rachel Kim"
+      ],
+      "previousInternships": [
+        "Illumina",
+        "23andMe",
+        "Genentech"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. Rachel Kim",
+          "message": "This is groundbreaking! We need to write this up ASAP. Nature Medicine?",
+          "time": "5 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Leo",
+          "message": "The genome sequencing pipeline you built is saving us hours of compute time!",
+          "time": "2 days ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Leo",
+      "age": 23,
+      "gender": "Male",
+      "year": 4,
+      "major": "Data Science",
+      "gpa": 3.85,
+      "roommatePreferences": [
+        "Marcus",
+        "Aisha"
+      ],
+      "previousInternships": [
+        "Google",
+        "Amazon"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. Maria Silva",
+          "message": "Awesome! Distributed computing makes such a difference with big datasets.",
+          "time": "2 days ago",
+          "direction": "received"
+        },
+        {
+          "with": "Marcus",
+          "message": "Heading to the GPU cluster. Need anything run overnight?",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Aisha",
+          "status": "Accepted",
+          "time": "6 months ago"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Michael Torres",
+      "age": 30,
+      "gender": "Male",
+      "year": 6,
+      "major": "Quantum Computing",
+      "gpa": 3.99,
+      "roommatePreferences": [
+        "Dr. James Park"
+      ],
+      "previousInternships": [
+        "IBM Quantum",
+        "Google Quantum AI",
+        "IonQ"
+      ],
+      "chatHistory": [
+        {
+          "with": "Dr. James Park",
+          "message": "The quantum algorithm for robot path planning is showing 10x speedup!",
+          "time": "4 hours ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Dr. Sarah Chen",
+          "message": "Interested in exploring quantum machine learning? Could revolutionize your neural nets.",
+          "time": "1 week ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Dr. James Park",
+          "status": "Accepted",
+          "time": "1 year ago"
+        }
+      ]
+    }
+  ]
+}

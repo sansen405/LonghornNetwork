@@ -1,0 +1,269 @@
+{
+  "name": "Creative Arts Collective",
+  "students": [
+    {
+      "name": "Zara",
+      "age": 21,
+      "gender": "Female",
+      "year": 3,
+      "major": "Film Production",
+      "gpa": 3.8,
+      "roommatePreferences": [
+        "Kai",
+        "Luna",
+        "River"
+      ],
+      "previousInternships": [
+        "Netflix",
+        "A24",
+        "Warner Bros"
+      ],
+      "chatHistory": [
+        {
+          "with": "Kai",
+          "message": "The short film is almost done! Your soundtrack is PERFECT. Can't wait to submit to Sundance!",
+          "time": "20 minutes ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Luna",
+          "message": "Your paintings would look incredible in the opening credits. Collaboration?",
+          "time": "2 hours ago",
+          "direction": "sent"
+        },
+        {
+          "with": "River",
+          "message": "Photography exhibition next Friday! You're coming right?",
+          "time": "1 day ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Phoenix",
+          "status": "Accepted",
+          "time": "2 weeks ago"
+        }
+      ]
+    },
+    {
+      "name": "Kai",
+      "age": 22,
+      "gender": "Male",
+      "year": 4,
+      "major": "Music Composition",
+      "gpa": 3.75,
+      "roommatePreferences": [
+        "Zara",
+        "River",
+        "Phoenix"
+      ],
+      "previousInternships": [
+        "Spotify",
+        "Universal Music",
+        "Berklee"
+      ],
+      "chatHistory": [
+        {
+          "with": "Zara",
+          "message": "Thanks! I poured my heart into that score. Let me know if you need any adjustments!",
+          "time": "15 minutes ago",
+          "direction": "received"
+        },
+        {
+          "with": "Phoenix",
+          "message": "Studio session at 8pm? Bringing my new synthesizer setup.",
+          "time": "4 hours ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Zara",
+          "status": "Accepted",
+          "time": "6 months ago"
+        }
+      ]
+    },
+    {
+      "name": "Luna",
+      "age": 20,
+      "gender": "Female",
+      "year": 2,
+      "major": "Fine Arts",
+      "gpa": 3.9,
+      "roommatePreferences": [
+        "Zara",
+        "River",
+        "Sage"
+      ],
+      "previousInternships": [
+        "Museum of Modern Art",
+        "Tate Modern",
+        "Gagosian Gallery"
+      ],
+      "chatHistory": [
+        {
+          "with": "Zara",
+          "message": "I'd love that! I've been working on this abstract series that would fit perfectly.",
+          "time": "2 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "Sage",
+          "message": "Your poetry reading last night was beautiful. Let's do art + poetry night!",
+          "time": "1 day ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "River",
+      "age": 23,
+      "gender": "Non-binary",
+      "year": 4,
+      "major": "Photography",
+      "gpa": 3.85,
+      "roommatePreferences": [
+        "Kai",
+        "Luna",
+        "Zara"
+      ],
+      "previousInternships": [
+        "National Geographic",
+        "Vogue",
+        "Adobe"
+      ],
+      "chatHistory": [
+        {
+          "with": "Zara",
+          "message": "Wouldn't miss it! Bringing my film camera for some analog shots.",
+          "time": "1 day ago",
+          "direction": "sent"
+        },
+        {
+          "with": "Phoenix",
+          "message": "The lighting in your theater production was inspiring! Coffee chat about techniques?",
+          "time": "3 days ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Luna",
+          "status": "Accepted",
+          "time": "4 months ago"
+        }
+      ]
+    },
+    {
+      "name": "Phoenix",
+      "age": 21,
+      "gender": "Male",
+      "year": 3,
+      "major": "Theater",
+      "gpa": 3.7,
+      "roommatePreferences": [
+        "Kai",
+        "Sage"
+      ],
+      "previousInternships": [
+        "Broadway",
+        "Lincoln Center",
+        "Second City"
+      ],
+      "chatHistory": [
+        {
+          "with": "Kai",
+          "message": "Yes! I'll warm up my vocals. Been working on some new experimental pieces.",
+          "time": "4 hours ago",
+          "direction": "received"
+        },
+        {
+          "with": "River",
+          "message": "Absolutely! The contrast between natural and stage lighting is fascinating. Tomorrow at 2?",
+          "time": "3 days ago",
+          "direction": "received"
+        }
+      ],
+      "friendRequests": []
+    },
+    {
+      "name": "Sage",
+      "age": 22,
+      "gender": "Non-binary",
+      "year": 3,
+      "major": "Creative Writing",
+      "gpa": 3.95,
+      "roommatePreferences": [
+        "Luna",
+        "Phoenix"
+      ],
+      "previousInternships": [
+        "The New Yorker",
+        "Poetry Foundation",
+        "McSweeney's"
+      ],
+      "chatHistory": [
+        {
+          "with": "Luna",
+          "message": "Yes! Visual art meets written word. Let's make it monthly!",
+          "time": "1 day ago",
+          "direction": "received"
+        },
+        {
+          "with": "Indigo",
+          "message": "Your dance piece left me speechless. I'm writing a poem inspired by it.",
+          "time": "2 days ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Phoenix",
+          "status": "Pending",
+          "time": "1 week ago"
+        }
+      ]
+    },
+    {
+      "name": "Indigo",
+      "age": 20,
+      "gender": "Female",
+      "year": 2,
+      "major": "Dance",
+      "gpa": 3.8,
+      "roommatePreferences": [
+        "Sage",
+        "Luna"
+      ],
+      "previousInternships": [
+        "Alvin Ailey",
+        "Joffrey Ballet",
+        "Cirque du Soleil"
+      ],
+      "chatHistory": [
+        {
+          "with": "Sage",
+          "message": "That means everything to me! Movement and words together create magic.",
+          "time": "2 days ago",
+          "direction": "received"
+        },
+        {
+          "with": "Zara",
+          "message": "Need a choreographer for your film? I'd love to create something together!",
+          "time": "1 week ago",
+          "direction": "sent"
+        }
+      ],
+      "friendRequests": [
+        {
+          "from": "Luna",
+          "status": "Accepted",
+          "time": "3 months ago"
+        }
+      ]
+    }
+  ]
+}
